@@ -6,8 +6,11 @@
 - The platformio.ini file has the screen size and pins set for this particular screen.
 - No manual change is required inside the TFT_eSPI library user setup, to set the drivers or pin definitions.  All of the configuration is in the platformio.ini file.
 
-1. [Pin connection diagram](docs/ESP32Wroom-ST7789.png)
-2. [Test program displaying on screen](docs/ESP32WROOM32-ST7789-Test-Program.jpg)
+### 240x280 TFT screen using ST7789 driver
+![Test program displaying on screen](docs/ESP32WROOM32-ST7789-Test-Program.jpg)
+
+### Pin diagram
+![Pin connection diagram](docs/ESP32Wroom-ST7789.png)
 
 ## References
 [Using the ST7789 with an ESP32](https://thesolaruniverse.wordpress.com/2021/11/05/displaying-color-pictures-on-a-240x240-tft-screen-with-st7789-controller-with-an-esp32-wroom-32/)
